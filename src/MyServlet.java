@@ -25,6 +25,8 @@ public class MyServlet extends HttpServlet {
 
         PrintWriter printWriter = response.getWriter();
         printWriter.write("同时完成浏览器和转码表");
+        String username=request.getParameter("username");
+        System.out.println(username);
     }
 
 

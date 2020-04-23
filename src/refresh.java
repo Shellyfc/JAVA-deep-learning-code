@@ -11,6 +11,6 @@ public class refresh extends HttpServlet{
         resp.setContentType("text/html;charset=UTF-8");
         resp.getWriter().write("3秒跳转页面");
 
-        resp.setHeader("Refresh","3;url='/myServlet/index.jsp'");
+        resp.setHeader("Refresh","3;url='/myServlet/refererServlet'");
     }
 }

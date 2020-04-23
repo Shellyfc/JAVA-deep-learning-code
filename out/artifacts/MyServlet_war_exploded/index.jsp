@@ -7,10 +7,11 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-    Hello World HomePage
-  </body>
+</head>
+<body>
+    <a href="/myServlet/refererServlet">refererServlet</a>
+    <a href ="/myServlet/MyServlet?username=ccf">使用超链接将数据带给浏览器</a>
+</body>
 </html>
